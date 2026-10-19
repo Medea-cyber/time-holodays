@@ -1,0 +1,28 @@
+#tpl_panel .tpl-row { display: flex; gap: 8px; align-items: center; margin: 4px 0; }
+#tpl_panel .tpl-row label { flex: 1 1 140px; }
+#tpl_panel .tpl-row input[type="number"] { width: 90px; flex: 0 0 auto; }
+#tpl_panel .tpl-wrap { flex-wrap: wrap; }
+#tpl_panel .tpl-wrap .menu_button { padding: 4px 8px; margin: 0; }
+#tpl_panel input.tpl-date { width: auto; flex: 1 1 140px; }
+#tpl_panel select.tpl-country { width: auto; min-width: 150px; }
+#tpl_panel input.tpl-city { flex: 1 1 120px; width: auto; }
+#tpl_panel textarea.tpl-flavor { min-height: 60px; font-size: 0.9em; }
+#tpl_panel .tpl-hint { display: block; opacity: 0.7; margin: 4px 0; }
+#tpl_panel .tpl-status { opacity: 0.75; font-size: 0.9em; margin: 6px 0; }
+#tpl_panel .tpl-now { font-weight: bold; margin: 4px 0 6px; }
+#tpl_panel details { margin: 8px 0; }
+#tpl_panel details.tpl-section > summary { font-weight: bold; cursor: pointer; margin: 10px 0 4px; }
+#tpl_panel .tpl-card { border: 1px solid var(--SmartThemeBorderColor); border-radius: 8px; padding: 6px 8px; margin: 6px 0; display: flex; flex-direction: column; gap: 3px; }
+#tpl_panel .tpl-meta { font-size: 0.8em; opacity: 0.7; }
+#tpl_panel .tpl-text { white-space: pre-wrap; word-break: break-word; }
+#tpl_panel .tpl-sub { font-size: 0.85em; opacity: 0.85; white-space: pre-wrap; }
+#tpl_panel .tpl-subhead { font-weight: bold; margin: 12px 0 4px; }
+#tpl_panel .tpl-empty { opacity: 0.6; font-style: italic; margin: 6px 0; }
+#tpl_panel .tpl-actions { display: flex; gap: 10px; justify-content: flex-end; }
+#tpl_panel .tpl-actions i { cursor: pointer; opacity: 0.7; padding: 4px; }
+#tpl_panel .tpl-actions i:hover { opacity: 1; }
+#tpl_panel .tpl-event { border-color: var(--SmartThemeQuoteColor, #8b78c4); border-width: 2px; }
+#tpl_panel .tpl-event-title { font-weight: bold; font-size: 1.05em; }
+#tpl_panel .tpl-task-row { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+#tpl_panel .tpl-task-row .checkbox_label { margin: 2px 0; flex: 1; }
+#tpl_panel pre.tpl-raw { white-space: pre-wrap; word-break: break-word; font-size: 0.8em; max-height: 240px; overflow: auto; }
